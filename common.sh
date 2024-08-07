@@ -22,7 +22,6 @@ FFMPEG_CONFIGURE_FLAGS=(
     --disable-iconv
     --disable-libxcb
     --disable-bsfs
-    --disable-filters
     --disable-parsers
     --disable-indevs
     --disable-outdevs
@@ -41,6 +40,9 @@ FFMPEG_CONFIGURE_FLAGS=(
     --enable-encoder=aac
     --enable-decoder=pcm_s16le
     --enable-decoder=pcm_s24le
+
+    # Enable necessary filters
+    --enable-filter=aresample
 
     # Enable necessary protocols
     --disable-protocols
