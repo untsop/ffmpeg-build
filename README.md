@@ -1,8 +1,7 @@
 Static audio-only FFmpeg builds
 ===============================
 
-This project contains scripts for small static audio-only FFmpeg builds that are used
-for Chromaprint packaging.
+This project contains scripts for small static audio-only, dedicated to transpile WAV to M4A, FFmpeg builds.
 
 Building is done using GitHub Actions. You can find the built binaries on the releases page.
 
