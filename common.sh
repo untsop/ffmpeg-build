@@ -21,6 +21,7 @@ FFMPEG_CONFIGURE_FLAGS=(
     --disable-bzlib
     --disable-iconv
     --disable-libxcb
+    --disable-xlib
     --disable-bsfs
     --disable-parsers
     --disable-indevs
@@ -29,6 +30,10 @@ FFMPEG_CONFIGURE_FLAGS=(
     --disable-nvenc
     --disable-videotoolbox
     --disable-audiotoolbox
+    --disable-vulkan
+    --disable-libxcb
+    --disable-libx264
+    --disable-libx265
 
     # Enable only required demuxers
     --enable-demuxer=wav
